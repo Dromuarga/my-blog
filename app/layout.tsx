@@ -10,7 +10,7 @@ export default function RootLayout({
     <header>
       <div className="text-center bg-slate-800 p-8 my-6 rounded-md">
         <Link href="/">
-          <h1 className="text-3xl text-white font-bold">Eliza's blog</h1>
+          <h1 className="text-2xl text-white font-bold mt-4">Eliza's blog</h1>
         </Link>
         <p className="text-slate-300">Welcome to my tech blog.</p>
       </div>
@@ -19,7 +19,7 @@ export default function RootLayout({
 
   const footer = (
     <footer>
-      <div className="border-t border-slate-400 mt-6 py-6 text-center text-slate-400">
+      <div className="border-t border-slate-400 mt-12 py-6 text-center text-slate-400">
         <p>Developed by Eliza</p>
       </div>
     </footer>
