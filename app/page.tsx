@@ -1,4 +1,3 @@
-import Link from "next/link";
 import getPostMetadata from "@/components/getPostMetadata";
 import PostPreview from "@/components/PostPreview";
 
@@ -8,5 +7,7 @@ export default function HomePage() {
     <PostPreview key={post.slug} {...post} />
   ));
 
-  return <div>{postPreviews}</div>;
+  return (
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">{postPreviews}</div>
+  );
 }
