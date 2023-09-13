@@ -11,3 +11,5 @@ console.log("Hello World!");
 ```
 
 ![moon](../images/moon.jpeg)
+
+there will be section about resursion soon! :)
