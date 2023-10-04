@@ -1,7 +1,7 @@
 ---
 title: "Hello World"
 date: "2020-12-08"
-subtitle: "not ready yet"
+subtitle: "Recursion - how to not get overwhelmed.(not ready yet)"
 ---
 
 # Hello world!
@@ -12,4 +12,6 @@ console.log("Hello World!");
 
 ![moon](../images/moon.jpeg)
 
-there will be section about resursion soon! :)
+1.What is recursion?
+2.In what type of situation would you need to use recursion?
+3.What do you need
