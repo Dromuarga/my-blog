@@ -1,5 +1,5 @@
 ---
-title: "Hello World"
+title: "Recursion"
 date: "2023-11-02"
 subtitle: "Recursion - how to not get overwhelmed."
 ---
@@ -18,12 +18,14 @@ You could use recursion when you have a problem which can be divided into smalle
     // FUNCTION POWER
 
     function power(base, exponent){
-    	//base case, loops stops and returns one.
+
+      //base case, loops stops and returns one.
     	if(exponent === 0){
-    	return 1;
+    	  return 1;
       } else {
-      //if exponent is not 0, multiply the base by the base
-      return base \* power(base, exponent - 1)
+
+        //if exponent is not 0, multiply the base by the base
+        return base \* power(base, exponent - 1)
       }
     }
     console.log(power 4, 5)
@@ -35,10 +37,12 @@ You could use recursion when you have a problem which can be divided into smalle
 //you can check whether the number is even or odd
 //by simply subtracting the number two from the number,
 //if what’s left is 0 - the number is even, otherwise it is odd
+
 function isEven(n) {
   //in this example we are having two base cases
   if (n === 0) return true;
   if (n === 1) return false;
+
   //this line is covering for negative numbers,
   //otherwise you would end up with infinite function again
   if (n < 0) return isEven(-n);
