@@ -15,7 +15,7 @@ Recursion is the process of a function calling itself. You can think about it as
 You could use recursion when you have a problem which can be divided into smaller, repetitive subproblems. A great example of this kind of problem is writing a function which will raise a given base to the power of a given exponent.
 
 ```javascript
-    // FUNCTION POWER
+// FUNCTION POWER
 
     function power(base, exponent){
 
@@ -30,6 +30,7 @@ You could use recursion when you have a problem which can be divided into smalle
     }
     console.log(power 4, 5)
     =====> 1024
+
 ```
 
 ```javascript
