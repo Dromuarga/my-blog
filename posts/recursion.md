@@ -1,7 +1,7 @@
 ---
-title: "Recursion"
-date: "2023-11-02"
-subtitle: "Recursion - how to not get overwhelmed."
+title: 'Recursion'
+date: '2023-11-02'
+subtitle: 'Recursion - how to not get overwhelmed.'
 ---
 
 I am sure that throughout your programming journey you have encountered recursive functions. It is one of the more challenging concepts in programming for budding software engineers to grasp. Even though one might rarely encounter recursion in their day-to-day work, it is a crucial concept in the realm of computer science. So I have written this post and hope that it will help you understand this topic better.
@@ -14,26 +14,28 @@ Recursion is the process of a function calling itself. You can think about it as
 
 You could use recursion when you have a problem which can be divided into smaller, repetitive subproblems. A great example of this kind of problem is writing a function which will raise a given base to the power of a given exponent.
 
-```javascript
+```js
 // FUNCTION POWER
 
-    function power(base, exponent){
+  function power(base, exponent){
 
-      //base case, loops stops and returns one.
-    	if(exponent === 0){
-    	  return 1;
-      } else {
-
-        //if exponent is not 0, multiply the base by the base
-        return base \* power(base, exponent - 1)
-      }
+    //base case, loops stops and returns one.
+    if(exponent === 0){
+    	return 1;
+    } else {
+    //if exponent is not 0, multiply the base by the base
+      return base * power(base, exponent - 1)
     }
-    console.log(power 4, 5)
-    =====> 1024
-
+  }
+console.log(power 4, 5)
+=====> 1024
 ```
 
-```javascript
+## Graph visualising the recursion process
+
+![chart](../images/white.jpg)
+
+```js
 //CHECKING IF THE NUMBER IS ODD
 //you can check whether the number is even or odd
 //by simply subtracting the number two from the number,

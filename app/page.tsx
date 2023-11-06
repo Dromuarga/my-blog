@@ -1,5 +1,5 @@
-import getPostMetadata from "@/components/getPostMetadata";
-import PostPreview from "@/components/PostPreview";
+import getPostMetadata from '@/components/getPostMetadata';
+import PostPreview from '@/components/PostPreview';
 
 export default function HomePage() {
   const postMetadata = getPostMetadata();
