@@ -31,9 +31,9 @@ console.log(power 4, 5)
 =====> 1024
 ```
 
-## Graph visualising the recursion process
+<!-- ## Graph visualising the recursion process
 
-<img src="../public/images/recursion-graph-white-background.jpg" alt="recursion graph"/>
+<img src="../public/images/recursion-graph-white-background.jpg" alt="recursion graph"/> -->
 
 ```js
 //CHECKING IF THE NUMBER IS ODD
