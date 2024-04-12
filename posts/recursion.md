@@ -33,7 +33,7 @@ console.log(power 4, 5)
 
 ## Graph visualising the recursion process
 
-![chart](public/images/white.jpg)
+<img src="../public/images/recursion-graph-white-background.jpg" alt="recursion graph"/>
 
 ```js
 //CHECKING IF THE NUMBER IS ODD
