@@ -1,34 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+<br>
+Blog
+<br>
+</h1>
+<h4 align="center">Made with Next.js</h4>
 
-## Getting Started
+<img width="100%" src="public/images/Blog-website.png" />
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+## Run the App
+**Clone the repository**:
+```sh
+git clone https://github.com/elizanierwinska/Portfolio-site-Three.js.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Install all the dependencies:** <br>
+npm
+```sh
+npm install 
+```
+yarn
+```sh
+yarn install
+```
+pnpm
+```sh
+pnpm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**In the project directory run**: <br>
+npm
+```sh
+npm run dev
+```
+yarn
+```sh
+yarn run
+```
+pnpm
+```sh
+pnpm run
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This will run the application in the development mode.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## Information about the project
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Blog is a blog website built with Next.js, TypeScript, and Tailwind CSS. It allows you to write and publish your own blog posts.
+### Features
+* **Responsive design**: The website is responsive and optimized for viewing on various devices, ensuring a seamless user experience across desktops, tablets, and smartphones.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## This project was built with:
+* Next.js
+* TypeScript
+* Tailwind.CSS
